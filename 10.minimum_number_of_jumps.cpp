@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int minJumps(vector<int> a, int n)
+int minJumps(vector<int> &a, int n)
 {
     if(n<=1)
         return 0;

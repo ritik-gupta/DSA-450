@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void printUnion(vector<int> a, vector<int> b, int n, int m)
+void printUnion(vector<int> &a, vector<int> &b, int n, int m)
 {
     set<int> u;
     for(int i=0; i<n; i++)

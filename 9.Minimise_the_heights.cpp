@@ -3,7 +3,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int minHeight(vector<int> a, int n, int k)
+int minHeight(vector<int> &a, int n, int k)
 {
     if(n==1)
         return 0;
